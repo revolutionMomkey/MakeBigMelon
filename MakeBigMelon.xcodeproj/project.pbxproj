@@ -1,0 +1,384 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D39DEB47287D391300A743D4 /* Garoad - last stop for the night.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = D39DEB46287D391300A743D4 /* Garoad - last stop for the night.mp3 */; };
+		D3B9A35228783C7600CA5AA0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B9A35128783C7600CA5AA0 /* AppDelegate.m */; };
+		D3B9A35528783C7600CA5AA0 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B9A35428783C7600CA5AA0 /* SceneDelegate.m */; };
+		D3B9A35828783C7600CA5AA0 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B9A35728783C7600CA5AA0 /* ViewController.m */; };
+		D3B9A35B28783C7600CA5AA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B9A35928783C7600CA5AA0 /* Main.storyboard */; };
+		D3B9A35D28783C7800CA5AA0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D3B9A35C28783C7800CA5AA0 /* Assets.xcassets */; };
+		D3B9A36028783C7800CA5AA0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D3B9A35E28783C7800CA5AA0 /* LaunchScreen.storyboard */; };
+		D3B9A36328783C7800CA5AA0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D3B9A36228783C7800CA5AA0 /* main.m */; };
+		D3D89512287C1AD600A9BB47 /* DJNCustomFruitView.m in Sources */ = {isa = PBXBuildFile; fileRef = D3D89511287C1AD600A9BB47 /* DJNCustomFruitView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D39DEB46287D391300A743D4 /* Garoad - last stop for the night.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "Garoad - last stop for the night.mp3"; sourceTree = "<group>"; };
+		D3B9A34D28783C7600CA5AA0 /* MakeBigMelon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MakeBigMelon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D3B9A35028783C7600CA5AA0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D3B9A35128783C7600CA5AA0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D3B9A35328783C7600CA5AA0 /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		D3B9A35428783C7600CA5AA0 /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		D3B9A35628783C7600CA5AA0 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D3B9A35728783C7600CA5AA0 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D3B9A35A28783C7600CA5AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D3B9A35C28783C7800CA5AA0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		D3B9A35F28783C7800CA5AA0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		D3B9A36128783C7800CA5AA0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D3B9A36228783C7800CA5AA0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D3D89510287C1AD600A9BB47 /* DJNCustomFruitView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DJNCustomFruitView.h; sourceTree = "<group>"; };
+		D3D89511287C1AD600A9BB47 /* DJNCustomFruitView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DJNCustomFruitView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D3B9A34A28783C7600CA5AA0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D39DEB41287D366800A743D4 /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				D39DEB46287D391300A743D4 /* Garoad - last stop for the night.mp3 */,
+			);
+			name = Lib;
+			sourceTree = "<group>";
+		};
+		D3B9A34428783C7600CA5AA0 = {
+			isa = PBXGroup;
+			children = (
+				D3B9A34F28783C7600CA5AA0 /* MakeBigMelon */,
+				D3B9A34E28783C7600CA5AA0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D3B9A34E28783C7600CA5AA0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D3B9A34D28783C7600CA5AA0 /* MakeBigMelon.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D3B9A34F28783C7600CA5AA0 /* MakeBigMelon */ = {
+			isa = PBXGroup;
+			children = (
+				D3B9A35028783C7600CA5AA0 /* AppDelegate.h */,
+				D3B9A35128783C7600CA5AA0 /* AppDelegate.m */,
+				D3B9A35328783C7600CA5AA0 /* SceneDelegate.h */,
+				D3B9A35428783C7600CA5AA0 /* SceneDelegate.m */,
+				D3B9A35628783C7600CA5AA0 /* ViewController.h */,
+				D3B9A35728783C7600CA5AA0 /* ViewController.m */,
+				D3D89510287C1AD600A9BB47 /* DJNCustomFruitView.h */,
+				D3D89511287C1AD600A9BB47 /* DJNCustomFruitView.m */,
+				D3B9A35928783C7600CA5AA0 /* Main.storyboard */,
+				D3B9A35C28783C7800CA5AA0 /* Assets.xcassets */,
+				D3B9A35E28783C7800CA5AA0 /* LaunchScreen.storyboard */,
+				D3B9A36128783C7800CA5AA0 /* Info.plist */,
+				D3B9A36228783C7800CA5AA0 /* main.m */,
+				D39DEB41287D366800A743D4 /* Lib */,
+			);
+			path = MakeBigMelon;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D3B9A34C28783C7600CA5AA0 /* MakeBigMelon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D3B9A36628783C7800CA5AA0 /* Build configuration list for PBXNativeTarget "MakeBigMelon" */;
+			buildPhases = (
+				D3B9A34928783C7600CA5AA0 /* Sources */,
+				D3B9A34A28783C7600CA5AA0 /* Frameworks */,
+				D3B9A34B28783C7600CA5AA0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MakeBigMelon;
+			productName = MakeBigMelon;
+			productReference = D3B9A34D28783C7600CA5AA0 /* MakeBigMelon.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D3B9A34528783C7600CA5AA0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					D3B9A34C28783C7600CA5AA0 = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = D3B9A34828783C7600CA5AA0 /* Build configuration list for PBXProject "MakeBigMelon" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D3B9A34428783C7600CA5AA0;
+			productRefGroup = D3B9A34E28783C7600CA5AA0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D3B9A34C28783C7600CA5AA0 /* MakeBigMelon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D3B9A34B28783C7600CA5AA0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B9A36028783C7800CA5AA0 /* LaunchScreen.storyboard in Resources */,
+				D39DEB47287D391300A743D4 /* Garoad - last stop for the night.mp3 in Resources */,
+				D3B9A35D28783C7800CA5AA0 /* Assets.xcassets in Resources */,
+				D3B9A35B28783C7600CA5AA0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D3B9A34928783C7600CA5AA0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3B9A35828783C7600CA5AA0 /* ViewController.m in Sources */,
+				D3D89512287C1AD600A9BB47 /* DJNCustomFruitView.m in Sources */,
+				D3B9A35228783C7600CA5AA0 /* AppDelegate.m in Sources */,
+				D3B9A36328783C7800CA5AA0 /* main.m in Sources */,
+				D3B9A35528783C7600CA5AA0 /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D3B9A35928783C7600CA5AA0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B9A35A28783C7600CA5AA0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D3B9A35E28783C7800CA5AA0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D3B9A35F28783C7800CA5AA0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D3B9A36428783C7800CA5AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D3B9A36528783C7800CA5AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D3B9A36728783C7800CA5AA0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y883J6QGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MakeBigMelon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = do.NanWangLtd.MakeBigMelon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D3B9A36828783C7800CA5AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3Y883J6QGJ;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = MakeBigMelon/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = do.NanWangLtd.MakeBigMelon;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D3B9A34828783C7600CA5AA0 /* Build configuration list for PBXProject "MakeBigMelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B9A36428783C7800CA5AA0 /* Debug */,
+				D3B9A36528783C7800CA5AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D3B9A36628783C7800CA5AA0 /* Build configuration list for PBXNativeTarget "MakeBigMelon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D3B9A36728783C7800CA5AA0 /* Debug */,
+				D3B9A36828783C7800CA5AA0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D3B9A34528783C7600CA5AA0 /* Project object */;
+}
